@@ -1,0 +1,78 @@
+/* Card Styles */
+
+.card {
+  width: 100%;
+  max-width: 24rem;
+  overflow: hidden;
+  position: relative;
+  margin: 12px 0;
+  border: 2px solid #262626;
+}
+
+.card a {
+  text-decoration: none;
+}
+
+.card .card__image {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.card__image:hover {
+  filter: sepia(50%);
+}
+
+.card .card__info {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  padding: 1rem;
+  border-top: 2px solid #262626;
+}
+
+.card__user {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin-right: 1rem;
+}
+
+.card__user span {
+  cursor: pointer;
+  color: #262626;
+  font-size: 1rem;
+}
+
+.comments,
+.likes,
+.likes-number {
+  margin-left: 0.5rem;
+  color: #262626;
+}
+
+.fa-comment,
+.fa-heart {
+  font-size: 1.5rem;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+.fa-heart {
+  color: #b3001b;
+}
+
+.card__interaction {
+  display: flex;
+  align-items: center;
+}
+.comments-number {
+  color: #262626;
+}

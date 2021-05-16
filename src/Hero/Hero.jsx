@@ -3,6 +3,7 @@ import Search from "../Search";
 import Card from "../Card";
 import Container from "../Container";
 import PropTypes from "prop-types";
+import "./styles.css";
 
 const Hero = (props) => {
   const { setInputValue, handleSearch, images, inputValue, newImages } = props;

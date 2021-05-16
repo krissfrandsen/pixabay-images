@@ -1,0 +1,39 @@
+/* Search Styles */
+
+form {
+  padding-bottom: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form input {
+  width: 100%;
+  max-width: 300px;
+  padding: 10px;
+  outline: none;
+  background: transparent;
+  border: 1px solid #011936;
+  color: #262626;
+}
+
+form input::placeholder {
+  color: #262626;
+}
+
+form button {
+  border: none;
+  outline: none;
+  font-size: 17px;
+  font-weight: 500;
+  padding: 8px 18px;
+  background: #011936;
+  color: #c2eabd;
+  margin-left: -89px;
+  cursor: pointer;
+  transition: background 400ms ease-in-out;
+}
+form button:hover {
+  background: #c2eabd;
+  color: #011936;
+}

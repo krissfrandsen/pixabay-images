@@ -1,15 +1,3 @@
-/* Variables */
-:root {
-  --red: #b3001b;
-  --gray: #ddd;
-  --blue: #255c99;
-  --blue-light: #7ea3cc;
-  --white: #fff;
-  --white-secondary: whitesmoke;
-  --black: #262626;
-  --black-secondary: #333;
-}
-
 /* Global Styles */
 
 * {
@@ -22,181 +10,16 @@ body {
   font-family: "Poppins", serif;
   position: relative;
   padding-bottom: 5rem;
-  color: var(--black);
+  color: #262626;
 }
 
 .container {
   width: 100%;
-  max-width: 1130px;
+  max-width: 1200px;
   margin: 0 auto;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-}
-
-/* Hero Styles */
-
-.hero {
-  width: 100%;
-  min-height: 100vh;
-  padding: 40px 0;
-}
-
-.hero .container h1 {
-  font-size: 40px;
-  line-height: 1;
-  color: var(--black);
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.hero .container .btnContainer {
-  width: 100%;
-  padding: 10px 0 0 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.hero .container .btnContainer button {
-  width: 120px;
-  text-align: center;
-  border: none;
-  outline: none;
-  background: var(--black-secondary);
-  color: var(--white);
-  border-radius: 4px;
-  padding: 10px 30px;
-  margin: 0 10px;
-  cursor: pointer;
-  font-size: 1.1rem;
-  transition: background 400ms ease-in-out;
-}
-
-.hero .container .btnContainer button:hover {
-  background: var(--blue-light);
-  color: var(--blue);
-}
-
-/* Search Styles */
-
-form {
-  padding-bottom: 28px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-form input {
-  width: 100%;
-  max-width: 300px;
-  padding: 10px;
-  outline: none;
-  background: transparent;
-  border: 1px solid var(--blue);
-  color: var(--black);
-}
-
-form input::placeholder {
-  color: var(--black);
-}
-
-form button {
-  border: none;
-  outline: none;
-  font-size: 17px;
-  font-weight: 500;
-  padding: 8px 18px;
-  background: var(--blue);
-  color: #fff;
-  margin-left: -89px;
-  cursor: pointer;
-  transition: background 400ms ease-in-out;
-}
-form button:hover {
-  background: var(--blue-light);
-  color: var(--blue);
-}
-
-/* Card Styles */
-
-.card {
-  width: 100%;
-  max-width: 23rem;
-  overflow: hidden;
-  position: relative;
-  margin: 12px 0;
-  border: 2px solid var(--black);
-}
-
-.card a {
-  text-decoration: none;
-}
-
-.card .card__image {
-  width: 100%;
-  height: 240px;
-  display: block;
-  object-fit: cover;
-  transition: all 0.5s ease;
-  cursor: pointer;
-}
-
-.card__image:hover {
-  filter: sepia(50%);
-}
-
-.card .card__info {
-  display: flex;
-  justify-content: space-between;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: var(--white);
-  padding: 1rem;
-  border-top: 2px solid var(--black);
-}
-
-.card__user {
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  margin-right: 1rem;
-}
-
-.card__user span {
-  cursor: pointer;
-  color: var(--black);
-  font-size: 1rem;
-}
-
-.comments,
-.likes,
-.likes-number {
-  margin-left: 0.5rem;
-  color: var(--black);
-}
-
-.fa-comment,
-.fa-heart {
-  font-size: 1.5rem;
-  cursor: pointer;
-  vertical-align: middle;
-}
-
-.fa-heart {
-  color: var(--red);
-}
-
-.card__interaction {
-  display: flex;
-  align-items: center;
-}
-.comments-number {
-  color: var(--black);
 }
 
 /* Media Queries */

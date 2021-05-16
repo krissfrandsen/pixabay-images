@@ -1,0 +1,45 @@
+/* Hero Styles */
+
+.hero {
+  width: 100%;
+  min-height: 100vh;
+  padding: 40px 0;
+}
+
+.hero .container h1 {
+  font-size: 40px;
+  line-height: 1;
+  color: var(--black);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero .container .btnContainer {
+  width: 100%;
+  padding: 10px 0 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero .container .btnContainer button {
+  width: 120px;
+  text-align: center;
+  border: none;
+  outline: none;
+  background: #333;
+  color: #fff;
+  border-radius: 4px;
+  padding: 10px 30px;
+  margin: 0 10px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  transition: background 400ms ease-in-out;
+}
+
+.hero .container .btnContainer button:hover {
+  background: #011936;
+  color: #c2eabd;
+}
